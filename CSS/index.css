@@ -1,0 +1,24 @@
+:root{
+    --color1: rgb(87, 7, 7);
+    --color3: #d2300c;
+    --color4: #e6e6e5;
+}
+
+
+
+.color1Bg{
+    background-color: var(--color1);
+}
+
+.introTxt{
+    color: var(--color4);
+}
+
+.color3Bg{
+    background-color: var(--color3);
+}
+
+::placeholder{
+    color: var(--color4);
+    text-align: center;
+}
